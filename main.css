@@ -1,0 +1,62 @@
+:root {
+  --primary-green: #3C6255;
+  --secondary-green: #61876E;
+
+  --cream: #EAE7B1;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
+  border-radius: .5rem;
+}
+
+body {
+  /* background-color: var(--cream); */
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+  width: 32rem;
+  margin: auto auto;
+}
+
+.display #result {
+  padding: 1rem;
+  width: 100%;
+  background-color: var(--primary-green);
+  color: #fff;
+  font-size: 24px;
+  text-align: right;
+}
+
+.box-button {
+  margin-top: 1rem;
+  display: grid;
+  gap: .5rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.box-button button {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.equal {
+  grid-column: 3/5;
+  background-color: #61876E;
+  color: #fff;
+}
+
+.operator {
+  background-color: #EAE7B1;
+}
