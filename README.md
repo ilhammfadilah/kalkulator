@@ -5,4 +5,4 @@
 - javascript
 
 ### screenshot
-![kalkulator]()
+![kalkulator](https://raw.githubusercontent.com/ilhammfadilah/kalkulator/main/kalkulator.jpeg)
